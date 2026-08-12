@@ -26,7 +26,7 @@ lower bound of 637.*
 Benchmarked against **Taillard's published upper bounds**, using the parameters from the
 original study (α=1, β=1, ρ=0.1, τ₀=1, 25 ants, 200 generations, elite 2/3, generation 1/3),
 best of 3 seeds. "v1" is my original thesis implementation's published result on the same
-instances; "dev" is deviation from the upper bound.; "dev" is deviation from the upper bound.
+instances; "dev" is deviation from the upper bound.
 
 | Instance | Taillard UB | v1 | dev | **v2** | dev | gain |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
