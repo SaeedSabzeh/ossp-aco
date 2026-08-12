@@ -12,6 +12,10 @@ In the OSSP every job must run once on every machine, but — unlike flow-shop o
 **the order of operations within a job is free**. That freedom is what makes it hard: the
 problem is NP-hard for three or more machines.
 
+This is a reimplementation of my bachelor's thesis at Iran University of
+Science and Technology. The original version is "v1" in the results table
+below; everything under "v2" is this repository.
+
 ![Gantt chart of a solved 10x10 schedule](results/1010_1_gantt.png)
 
 *A solved 10×10 instance: one row per machine, bars coloured by job, makespan 679 against a
@@ -21,8 +25,8 @@ lower bound of 637.*
 
 Benchmarked against **Taillard's published upper bounds**, using the parameters from the
 original study (α=1, β=1, ρ=0.1, τ₀=1, 25 ants, 200 generations, elite 2/3, generation 1/3),
-best of 3 seeds. "v1" is the previous implementation's published result on the same
-instances; "dev" is deviation from the upper bound.
+best of 3 seeds. "v1" is my original thesis implementation's published result on the same
+instances; "dev" is deviation from the upper bound.; "dev" is deviation from the upper bound.
 
 | Instance | Taillard UB | v1 | dev | **v2** | dev | gain |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
